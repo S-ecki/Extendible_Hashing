@@ -7,7 +7,7 @@
 Extendible Hashing is a dynamic hash system that is less affected by table growth than static hashing methods. It uses a lookup table that points to Buckets of data, where in the case of an overflow, only the Buckets with an actual overflow get rehashed (instead of the whole table). <br/>
 If you want to learn more, click [here](https://www.researchgate.net/publication/220225699_Extendible_Hashing_-_A_Fast_Access_Method_for_Dynamic_Files).
 
-This implementation was created for my class [Algorithmen und Datenstrukturen 1](https://ufind.univie.ac.at/de/course.html?lv=051024&semester=2020S) at the University of Vienna.
+This implementation was created for my class [Algorithmen und Datenstrukturen 1 (ADS)](https://ufind.univie.ac.at/de/course.html?lv=051024&semester=2020S) at the University of Vienna.
 
 ## Structure
 
