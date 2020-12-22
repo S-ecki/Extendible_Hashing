@@ -1,5 +1,7 @@
 # Extendible_Hashing
-~~ic~~
+
+<img src="https://user-images.githubusercontent.com/75510543/102941268-920b1780-44b2-11eb-8ab8-9133a62921e3.png" width=500 align="right">
+
  A Datastructure based on *<<std::set>>* using the Extendible Hashing method.
  
 Extendible Hashing is a dynamic hash system that is less affected by table growth than static hashing methods. It uses a lookup table that points to Buckets of data, where in the case of an overflow, only the Buckets with an actual overflow get rehashed (instead of the whole table). <br/>
@@ -57,4 +59,5 @@ Mainly for debugging, `dump(ostream)` can be called. It prints the content of yo
 ### Some Closing Remarks
 alles header
 comments
+
 
